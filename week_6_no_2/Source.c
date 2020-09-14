@@ -2,7 +2,7 @@
 
 int main() {
 	int score;
-	scanf("%d", score);
+	scanf("%d", &score);
 	if (score < 0 || score>100) {
 		printf("Please insert the number that is greater oe equal zero.");
 	}
